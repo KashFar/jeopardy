@@ -17,6 +17,10 @@ class Cell {
   findNeightbors(){
 
   }
-  setAsClicked()
-  setDefaultStyles()
+  setAsClicked(){
+
+  }
+  setDefaultStyles(){
+    
+  }
 }
