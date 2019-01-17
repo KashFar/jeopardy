@@ -1,6 +1,5 @@
 /* eslint-disable */
 // ask if function can be put anywhere in the file
-
 class Grid {
   constructor(options) {
     this.rows = options.rows;
@@ -14,7 +13,6 @@ class Grid {
     for (let columnIndex = 0; columnIndex < this.columns; columnIndex++) {
       let columnElement = document.createElement('div')
       columnElement.classList.add("column");
-
       for (let rowIndex = 0; rowIndex < this.rows; rowIndex++) {
         let cellObject = new Cell(rowIndex,columnIndex)
         // cell instances defined above
@@ -25,7 +23,6 @@ class Grid {
       }
       this.container.appendChild(columnElement)
     }
-
   };
   findOneCell(rowIndex, columnIndex){
     console.log(this.cellArray)
@@ -35,9 +32,10 @@ class Grid {
     })
     return foundCell
   }
-  findNearestNeighbors (cellObject){
-    
-  }
+  // findNearestNeighbors (cellObject){
+  //   let nearestNeighbor = this.cellArray.
+  // }
+  // findNearestNeighbors
   //callback function that tests the cell for column and row indexes
 }
 

@@ -14,13 +14,13 @@ class Cell {
     this.cellDiv.classList.add(newClass)
     this.cellDiv.classList.remove(oldClass) 
   }
-  findNeightbors(){
+  // findNeightbors(){
 
-  }
-  setAsClicked(){
+  // }
+  // setAsClicked(){
 
-  }
-  setDefaultStyles(){
+  // }
+  // setDefaultStyles(){
     
-  }
+  // }
 }
