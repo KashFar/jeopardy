@@ -1,7 +1,7 @@
 
 let categoryIDs = [1,4,3,13, 16]
 
-let jeopardyGrid = new jeopardyGrid (5, 5, 150, catŒegoryIDs)
+let jeopardyGrid = new jeopardyGrid (5, 5, 150, categoryIDs)
 
 jeopardyGrid.updateDOM(document.body, jeopardyGrid.boardElement)
 
